@@ -11,7 +11,7 @@ if (isset($_REQUEST["pid"])){
 <html>
 <head>
 <title>omnipad</title>
-
+<base href="http://localhost:8888/omnipad/"/> <!--BASE URL, CHANGE WHEN PUSH-->
 <link rel="stylesheet" type="text/css" href="./css/styles.css" />
 <link rel="stylesheet" type="text/css" href="./css/peculiar.css" />
 <link href="./prettify/prettify.css" type="text/css" rel="stylesheet" />
@@ -446,7 +446,7 @@ if (isset($_REQUEST["pid"])){
 </script>
 
 <script>
-    var baseUrl = "http://omnipad.ignorelist.com/omnipadX";
+    var baseUrl = "http://localhost:8888/omnipad";
     var pid = <?php echo(''+$pid); ?>;
 	var uid = 1;
     var aces = {};

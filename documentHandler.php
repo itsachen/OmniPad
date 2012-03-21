@@ -16,7 +16,7 @@ $mode = $_REQUEST["mode"];
 $uid = $_REQUEST["uid"];
 //Probably need to check page id as well
 $pid = $_REQUEST["pid"];
-mysql_connect("localhost","root","bn89dpy");
+mysql_connect("localhost","admin","lolpassword");
 mysql_select_db("omnipad") or die("Unable to select database");
 
 /*

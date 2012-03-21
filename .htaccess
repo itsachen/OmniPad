@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+#Options +Indexes
+RewriteEngine On
+#RewriteBase /
+
+#Rewrite rules start
+RewriteRule ^doc/([0-9]+)$ index.php?pid=$1
